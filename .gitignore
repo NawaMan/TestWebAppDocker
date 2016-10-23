@@ -1,0 +1,5 @@
+.gradle
+.setting
+
+/build/**
+build
