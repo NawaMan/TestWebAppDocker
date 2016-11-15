@@ -8,7 +8,7 @@ import javax.ws.rs.core.MediaType;
 /**
  * Created by dssb on 01/10/16.
  */
-@Path("/resource1")
+@Path("/res1")
 public class EntryPoint1 {
 	
 	public static class Data {
@@ -40,8 +40,8 @@ public class EntryPoint1 {
     @Produces(MediaType.APPLICATION_JSON)
     public Data test() {
     	Data data = new Data();
-    	data.setName("The name.");
-    	data.setValue("The value.");
+    	data.setName("The name!");
+    	data.setValue("The value!");
         return data;
     }
 }

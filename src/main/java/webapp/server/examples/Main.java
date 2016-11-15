@@ -8,7 +8,7 @@ public class Main {
     	new WebServer()
     		.listenTo(8080)
     		.resource("/")
-    			.from("build/web")
+    			.from("build/resources/main/web")
     		.rest("/rest")
     			.include(EntryPoint.class)
     			.include(EntryPoint1.class)
